@@ -1,0 +1,24 @@
+0a1,2
+> #!/bin/bash
+> 
+2c4
+< echo "--- Sum of n numbers ---"
+---
+> echo "--- Sum and Factorial of n numbers ---"
+4a7
+> 
+6c9,10
+< total=0
+---
+> total_sum=0
+> total_pro=1
+10c14,15
+<   total=`expr $total + $t`
+---
+>   total_sum=`expr $total_sum + $t`
+>   total_pro=`expr $total_pro \* $t`
+14c19,20
+< echo "SUM OF $digit : $total"
+---
+> echo "SUM OF $digit : $total_sum"
+> echo "Factorial of $digit : $total_pro"
