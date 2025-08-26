@@ -1,6 +1,19 @@
+
+
+
+import pandas as pd
+
+d={"a":[1,2,3,4],"b":[5,5,6,7]}
 def main():
-    print("Hello from week-4-uv!")
+    df=pd.DataFrame(d)
+    print( df)
+
+    
+
+
 
 
 if __name__ == "__main__":
     main()
+
+
