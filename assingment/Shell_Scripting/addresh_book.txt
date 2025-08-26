@@ -1,0 +1,4 @@
+Name,Surname,Email,Phone
+John,Smith,john@example.com,1234567890
+Jane,Doe,jane@example.com,9876543210
+Suman,Acharya,142402011@smail.iitpkd.ac.in,75550887565
