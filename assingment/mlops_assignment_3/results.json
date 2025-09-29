@@ -1,0 +1,306 @@
+{
+    "resnet34": {
+        "best": {
+            "arch": "resnet34",
+            "learning_rate": 0.01,
+            "optimizer": "sgd",
+            "momentum": 0.9,
+            "accuracy": 0.1875,
+            "loss": 2.35551118850708
+        },
+        "all": [
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.562056541442871,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.1968982219696045,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.3407726287841797,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.35551118850708,
+                "accuracy": 0.1875
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.7731194496154785,
+                "accuracy": 0.0625
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.4420435428619385,
+                "accuracy": 0.0625
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.5439727306365967,
+                "accuracy": 0.1875
+            },
+            {
+                "arch": "resnet34",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.675870418548584,
+                "accuracy": 0.0625
+            }
+        ]
+    },
+    "resnet50": {
+        "best": {
+            "arch": "resnet50",
+            "learning_rate": 0.001,
+            "optimizer": "adam",
+            "momentum": 0.9,
+            "accuracy": 0.1875,
+            "loss": 2.252044916152954
+        },
+        "all": [
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.3500142097473145,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.349156379699707,
+                "accuracy": 0.0625
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.3773398399353027,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.3956174850463867,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.34393048286438,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.252044916152954,
+                "accuracy": 0.1875
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.3776373863220215,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet50",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.405579090118408,
+                "accuracy": 0.0625
+            }
+        ]
+    },
+    "resnet101": {
+        "best": {
+            "arch": "resnet101",
+            "learning_rate": 0.01,
+            "optimizer": "sgd",
+            "momentum": 0.9,
+            "accuracy": 0.25,
+            "loss": 2.2269272804260254
+        },
+        "all": [
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.3652987480163574,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.3787801265716553,
+                "accuracy": 0.0625
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.309873104095459,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.2269272804260254,
+                "accuracy": 0.25
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.338768243789673,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.3322293758392334,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.3131892681121826,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet101",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.36812686920166,
+                "accuracy": 0.25
+            }
+        ]
+    },
+    "resnet152": {
+        "best": {
+            "arch": "resnet152",
+            "learning_rate": 0.001,
+            "optimizer": "adam",
+            "momentum": 0.9,
+            "accuracy": 0.25,
+            "loss": 2.2166287899017334
+        },
+        "all": [
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.362088680267334,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.01,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.2979304790496826,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.4539878368377686,
+                "accuracy": 0.0
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.01,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.3020503520965576,
+                "accuracy": 0.0625
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.0,
+                "loss": 2.3187243938446045,
+                "accuracy": 0.125
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.001,
+                "optimizer": "adam",
+                "momentum": 0.9,
+                "loss": 2.2166287899017334,
+                "accuracy": 0.25
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.0,
+                "loss": 2.302666425704956,
+                "accuracy": 0.1875
+            },
+            {
+                "arch": "resnet152",
+                "learning_rate": 0.001,
+                "optimizer": "sgd",
+                "momentum": 0.9,
+                "loss": 2.340468406677246,
+                "accuracy": 0.0625
+            }
+        ]
+    }
+}

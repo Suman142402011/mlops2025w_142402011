@@ -1,0 +1,15 @@
+[resnet34]
+learning_rate = 0.01
+weight_decay = 0.0001
+
+[resnet50]
+learning_rate = 0.001
+weight_decay = 0.0001
+
+[resnet101]
+learning_rate = 0.001
+weight_decay = 0.0001
+
+[resnet152]
+learning_rate = 0.0005
+weight_decay = 0.0001

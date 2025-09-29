@@ -1,0 +1,13 @@
+{
+    "data": {
+        "image_size": 224,
+        "batch_size": 16,
+        "num_classes": 10,
+        "train_subset": 200,
+        "val_subset": 50
+    },
+    "model": {
+        "architecture": ["resnet34", "resnet50", "resnet101", "resnet152"],
+        "pretrained": true
+    }
+}

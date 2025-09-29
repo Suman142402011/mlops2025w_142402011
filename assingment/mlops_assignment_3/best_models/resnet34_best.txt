@@ -1,0 +1,6 @@
+arch: resnet34
+learning_rate: 0.001
+optimizer: adam
+momentum: 0.9
+accuracy: 0.25
+loss: 2.2519822120666504

@@ -1,0 +1,6 @@
+arch: resnet152
+learning_rate: 0.01
+optimizer: sgd
+momentum: 0.0
+accuracy: 0.25
+loss: 2.336352586746216
